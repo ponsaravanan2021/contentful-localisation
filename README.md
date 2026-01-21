@@ -34,7 +34,7 @@ This pattern needs one container type, and then referenced locales. In our case 
 - Display field: internalName — Non-localised editorial identifier
 - Internal Name (internalName): Symbol · Not localised · Required · Unique — Identifies the global container entry
 - Slug (slug): Symbol · Not localised · Required — Shared routing identifier across all locales
-- Localised Content (localisedContent): Entry reference · ### Container: Entry Level Global Demo Page — Points to a locale-specific entry per language
+- Localised Content (localisedContent)
 
 Ensure ID is (entryLevelGlobalDemoPage <== Entry Level Global Demo Page) or adjust the code as needed. Your graphql query wont work if it isnt aligned to the type.
 Localised Content must be localised otherwise the GraphQl query wont fetch the data.

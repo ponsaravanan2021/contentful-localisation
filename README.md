@@ -55,7 +55,8 @@ The format for urls based on the code is http://localhost:3000/[locale]/entry-le
 
 ## Code Setup
 ### Project Setup
-Go to  the project folder and create the Next js app
+Go to  the project folder and create the Next js app OR Clone this repo and npm install. it should work
+
 
 ```bash
 npx create-next-app@latest  contentful-localisation --typescript --app
@@ -71,6 +72,12 @@ npx create-next-app@latest  contentful-localisation --typescript --app
 √ Would you like to customize the import alias (`@/*` by default)? ... No 
 
 Or adjust the code if you choose different options
+
+OR
+
+```bash
+npm install
+```
 
 ```bash
 cd contentful-localisation

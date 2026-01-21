@@ -24,7 +24,7 @@ Ensure the ID is (fieldLevelLocalisationDemoPage <== Field Level Localisation De
 
 ### Content Entries
 Create an entry of type fieldLevelLocalisationDemoPage. 
-Ensure slug is supplied properly in the url in the links. The format for urls based on the code is http://localhost:3000/<locale>/field-level/<slug>
+Ensure slug is supplied properly in the url in the links. The format for urls based on the code is http://localhost:3000/[locale]/field-level/[slug]
 
 ## Entry Level
 This pattern needs one container type, and then referenced locales. In our case we are using en-US, and de. So there will be two localised components and one container component lets call it as Global.
@@ -51,7 +51,7 @@ All entries are specific to the locale so there must not be any localisation set
 ### Content Entries
 Create entry for Global compoent ensure the referenced languages are setup. The locales can be referenced as they are ready to release. This allows staggering releases by entry.
 Ensure slug is supplied properly in the url in the links.
-The format for urls based on the code is http://localhost:3000/<locale>/entry-level/<slug>
+The format for urls based on the code is http://localhost:3000/[locale]/entry-level/[slug]
 
 ## Code Setup
 ### Project Setup
@@ -90,10 +90,10 @@ Inside the src/app folder look for the respective pages.
 [locale]/entry-level/[slug]/page.tsx
 
 Edit env.local file with the keys from contentful
-- NEXT_PUBLIC_CONTENTFUL_SPACE_ID=<Space id here>
+- NEXT_PUBLIC_CONTENTFUL_SPACE_ID=[Space id here]
 - NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT_ID=master
-- NEXT_PUBLIC_CONTENTFUL_DELIVERY_TOKEN=<delivery token here>
-- NEXT_PUBLIC_CONTENTFUL_PREVIEW_TOKEN=<preview token here>
+- NEXT_PUBLIC_CONTENTFUL_DELIVERY_TOKEN=[delivery token here]
+- NEXT_PUBLIC_CONTENTFUL_PREVIEW_TOKEN=[preview token here]
 
 Since we are calling the GraphQl endpoints from two different places, the logic is abstracted to src\lib\httpClient.ts
 

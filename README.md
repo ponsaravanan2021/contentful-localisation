@@ -110,15 +110,15 @@ Run the app and follow the instructions
 npm run dev
 ```
 
-### Verification
-## Field Level
+## Verification
+### Field Level
 
 ```bash
 http://localhost:3000/en-US/field-level/simple-field-level-localisation-demo
 http://localhost:3000/de/field-level/simple-field-level-localisation-demo
 ```
 
-## Entry Level
+### Entry Level
 
 ```bash
 http://localhost:3000/en-US/entry-level/entry-level-localisation-demo

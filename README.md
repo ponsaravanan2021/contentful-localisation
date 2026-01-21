@@ -93,8 +93,8 @@ npm install contentful @contentful/rich-text-react-renderer @contentful/rich-tex
 
 Inside the src/app folder look for the respective pages.
 
-[locale]/field-level/[slug]/page.tsx
-[locale]/entry-level/[slug]/page.tsx
+- [locale]/field-level/[slug]/page.tsx
+- [locale]/entry-level/[slug]/page.tsx
 
 Edit env.local file with the keys from contentful
 - NEXT_PUBLIC_CONTENTFUL_SPACE_ID=[Space id here]
